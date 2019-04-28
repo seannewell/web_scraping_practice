@@ -1,5 +1,8 @@
 # web_scraping_practice.py
-
+#
+# This is a .py file that scrapes information from the
+# blog page on runwayaudio.com and turns it into a
+# .csv file that can be opened in Excel
 import requests
 from bs4 import BeautifulSoup
 from csv import writer
